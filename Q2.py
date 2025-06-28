@@ -69,7 +69,7 @@ segmented = region_growing(image_gray, seed_points, threshold_range)
 # Save output
 output_path = "results/segmented_mask.png"
 cv2.imwrite(output_path, segmented)
-print(f"✅ Segmentation mask saved to: {output_path}")
+print(f"Segmentation mask saved to: {output_path}")
 
 # Display
 cv2.imshow("Original Image", image_color)
