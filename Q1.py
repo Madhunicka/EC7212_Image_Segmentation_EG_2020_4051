@@ -35,7 +35,7 @@ def addGaussiannoise(image):
     noisy_img = np.clip(img_noised, 0, 255).astype(np.uint8)
     return noisy_img
 
-# Create results directory if not exists
+
 output_dir = "results"
 os.makedirs(output_dir, exist_ok=True)
 
